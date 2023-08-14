@@ -6,6 +6,11 @@
 - 启动服务 `pnpm dev`
 - 运行 http://localhost:3000/api/test
 
+结果如下：
+```
+{"status":"success","data":{"username":"zhangsan"}}
+```
+
 ## 增加接口
 - 在 `mock/index.js` 增加接口注册接口
 - 在 `mock` 目录下增加相应的文件
