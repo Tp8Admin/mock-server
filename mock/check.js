@@ -1,7 +1,7 @@
 module.exports = [
     // 一：检测PHP环境
     {
-      url: '/api/envCheckPhp',
+      url: '/api/install/envCheckPhp',
       method: 'get',
       response: () => {
         return {
@@ -62,7 +62,7 @@ module.exports = [
 
     // 二：检测NodeJs环境
     {
-        url: '/api/envCheckNpm',
+        url: '/api/install/envCheckNpm',
         method: 'get',
         response: () => {
           return {
